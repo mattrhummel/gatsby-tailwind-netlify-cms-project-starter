@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Project Starter`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://matthummelweb.dev`
   },
   plugins: [
     'gatsby-plugin-postcss',
