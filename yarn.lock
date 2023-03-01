@@ -2997,17 +2997,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@soda/friendly-errors-webpack-plugin@npm:1.8.0":
-  version: 1.8.0
-  resolution: "@soda/friendly-errors-webpack-plugin@npm:1.8.0"
+"@soda/friendly-errors-webpack-plugin@npm:1.8.1":
+  version: 1.8.1
+  resolution: "@soda/friendly-errors-webpack-plugin@npm:1.8.1"
   dependencies:
-    chalk: ^2.4.2
-    error-stack-parser: ^2.0.2
-    string-width: ^2.0.0
-    strip-ansi: ^5
+    chalk: ^3.0.0
+    error-stack-parser: ^2.0.6
+    string-width: ^4.2.3
+    strip-ansi: ^6.0.1
   peerDependencies:
     webpack: ^4.0.0 || ^5.0.0
-  checksum: 31c0dc8aea2f1d416400d1f9ffe37f1bc88821b4e28e7dfe1a089ed711ee70bdd7def331c6bd578a6d0d939227817812ba791addd4936e9111e1004056bf14bb
+  checksum: 397f31580f088460472abbb61a49551d4ff60c0bf949f3cb4667e013a3b7f4575aa2b5a7dcf8a3d5a3862f043eef93a19ad60fd3f4b7cfd0cc8128d95a202479
   languageName: node
   linkType: hard
 
@@ -4076,13 +4076,6 @@ __metadata:
   version: 2.1.1
   resolution: "ansi-regex@npm:2.1.1"
   checksum: 190abd03e4ff86794f338a31795d262c1dfe8c91f7e01d04f13f646f1dcb16c5800818f886047876f1272f065570ab86b24b99089f8b68a0e11ff19aed4ca8f1
-  languageName: node
-  linkType: hard
-
-"ansi-regex@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "ansi-regex@npm:3.0.1"
-  checksum: 09daf180c5f59af9850c7ac1bd7fda85ba596cc8cbeb210826e90755f06c818af86d9fa1e6e8322fab2c3b9e9b03f56c537b42241139f824dd75066a1e7257cc
   languageName: node
   linkType: hard
 
@@ -5269,6 +5262,16 @@ __metadata:
     escape-string-regexp: ^1.0.5
     supports-color: ^5.3.0
   checksum: ec3661d38fe77f681200f878edbd9448821924e0f93a9cefc0e26a33b145f1027a2084bf19967160d11e1f03bfe4eaffcabf5493b89098b2782c3fe0b03d80c2
+  languageName: node
+  linkType: hard
+
+"chalk@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "chalk@npm:3.0.0"
+  dependencies:
+    ansi-styles: ^4.1.0
+    supports-color: ^7.1.0
+  checksum: 8e3ddf3981c4da405ddbd7d9c8d91944ddf6e33d6837756979f7840a29272a69a5189ecae0ff84006750d6d1e92368d413335eab4db5476db6e6703a1d1e0505
   languageName: node
   linkType: hard
 
@@ -7006,7 +7009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"error-stack-parser@npm:^2.0.2, error-stack-parser@npm:^2.0.6, error-stack-parser@npm:^2.1.4":
+"error-stack-parser@npm:^2.0.6, error-stack-parser@npm:^2.1.4":
   version: 2.1.4
   resolution: "error-stack-parser@npm:2.1.4"
   dependencies:
@@ -8571,26 +8574,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-netlify-cms@npm:^5.8.0":
-  version: 5.15.0
-  resolution: "gatsby-plugin-netlify-cms@npm:5.15.0"
+"gatsby-plugin-netlify-cms@npm:^7.7.0":
+  version: 7.7.0
+  resolution: "gatsby-plugin-netlify-cms@npm:7.7.0"
   dependencies:
-    "@babel/runtime": ^7.15.4
-    "@soda/friendly-errors-webpack-plugin": 1.8.0
+    "@babel/runtime": ^7.20.13
+    "@soda/friendly-errors-webpack-plugin": 1.8.1
     copy-webpack-plugin: ^7.0.0
-    html-webpack-plugin: ^5.3.2
-    html-webpack-skip-assets-plugin: ^1.0.2
-    html-webpack-tags-plugin: ^3.0.1
+    html-webpack-plugin: ^5.5.0
+    html-webpack-skip-assets-plugin: ^1.0.3
+    html-webpack-tags-plugin: ^3.0.2
     lodash: ^4.17.21
     mini-css-extract-plugin: 1.6.2
     netlify-identity-widget: ^1.9.2
-    webpack: ^5.35.0
   peerDependencies:
-    gatsby: ^3.0.0-next.0
+    gatsby: ^5.0.0-next
     netlify-cms-app: ^2.9.0
-    react: ^16.9.0 || ^17.0.0
-    react-dom: ^16.9.0 || ^17.0.0
-  checksum: 522996eee24cb869ee17246f2e613935b9208f8f7a18cdd024e5a2823148cc64cfe851307cdb7681ae6f25acf29889e0a839ad18b765a7648ad87ee88cf5016d
+    react: ^18.0.0 || ^0.0.0
+    react-dom: ^18.0.0 || ^0.0.0
+    webpack: ^5.0.0
+  checksum: e6350eb35d7dc1f681ee76dc9e7dd381f8bc059f047b0466e588ae0541aca640ebba2596b934502dddb3fa0642801ad52116f42ffb78f90fb27bcefd77510c63
   languageName: node
   linkType: hard
 
@@ -8613,19 +8616,6 @@ __metadata:
   peerDependencies:
     gatsby: ^5.0.0-next
   checksum: f85307871992f65e3c5d9d260f216df3a3d51c100a5cab73cf752efe21affad4ecc4021015ae7721a2745d39aabb42a01b97a82c6e5dac5e4d592c651dd8e052
-  languageName: node
-  linkType: hard
-
-"gatsby-plugin-postcss@npm:^6.7.0":
-  version: 6.7.0
-  resolution: "gatsby-plugin-postcss@npm:6.7.0"
-  dependencies:
-    "@babel/runtime": ^7.20.13
-    postcss-loader: ^7.0.2
-  peerDependencies:
-    gatsby: ^5.0.0-next
-    postcss: ^8.0.5
-  checksum: 82b607d0de8b1bf036fd308481a9daba634d4bbb238f45ec69055dc1076e591b2709eabb99aefe3e2cd98877b3a70b9e534c2152dd574f3b7e30ac0732acb7eb
   languageName: node
   linkType: hard
 
@@ -9896,7 +9886,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:^5.3.2":
+"html-webpack-plugin@npm:^5.5.0":
   version: 5.5.0
   resolution: "html-webpack-plugin@npm:5.5.0"
   dependencies:
@@ -9911,7 +9901,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-skip-assets-plugin@npm:^1.0.2":
+"html-webpack-skip-assets-plugin@npm:^1.0.3":
   version: 1.0.3
   resolution: "html-webpack-skip-assets-plugin@npm:1.0.3"
   dependencies:
@@ -9923,7 +9913,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-tags-plugin@npm:^3.0.1":
+"html-webpack-tags-plugin@npm:^3.0.2":
   version: 3.0.2
   resolution: "html-webpack-tags-plugin@npm:3.0.2"
   dependencies:
@@ -10478,13 +10468,6 @@ __metadata:
   version: 2.1.1
   resolution: "is-extglob@npm:2.1.1"
   checksum: df033653d06d0eb567461e58a7a8c9f940bd8c22274b94bf7671ab36df5719791aae15eef6d83bbb5e23283967f2f984b8914559d4449efda578c775c4be6f85
-  languageName: node
-  linkType: hard
-
-"is-fullwidth-code-point@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "is-fullwidth-code-point@npm:2.0.0"
-  checksum: eef9c6e15f68085fec19ff6a978a6f1b8f48018fd1265035552078ee945573594933b09bbd6f562553e2a241561439f1ef5339276eba68d272001343084cfab8
   languageName: node
   linkType: hard
 
@@ -11207,7 +11190,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"klona@npm:^2.0.4, klona@npm:^2.0.5":
+"klona@npm:^2.0.4":
   version: 2.0.6
   resolution: "klona@npm:2.0.6"
   checksum: ac9ee3732e42b96feb67faae4d27cf49494e8a3bf3fa7115ce242fe04786788e0aff4741a07a45a2462e2079aa983d73d38519c85d65b70ef11447bbc3c58ce7
@@ -14918,20 +14901,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "postcss-loader@npm:7.0.2"
-  dependencies:
-    cosmiconfig: ^7.0.0
-    klona: ^2.0.5
-    semver: ^7.3.8
-  peerDependencies:
-    postcss: ^7.0.0 || ^8.0.1
-    webpack: ^5.0.0
-  checksum: 2d251537d482eb751f812c96c8b515f46d7c9905cad7afab33f0f34872670619b7440cefc9e2babbf89fb11b4708850d522d79fa5ff788227587645e78f16638
-  languageName: node
-  linkType: hard
-
 "postcss-merge-longhand@npm:^5.1.7":
   version: 5.1.7
   resolution: "postcss-merge-longhand@npm:5.1.7"
@@ -15343,8 +15312,7 @@ __metadata:
     gatsby-plugin-image: ^3.7.0
     gatsby-plugin-manifest: ^5.7.0
     gatsby-plugin-mdx: ^5.7.0
-    gatsby-plugin-netlify-cms: ^5.8.0
-    gatsby-plugin-postcss: ^6.7.0
+    gatsby-plugin-netlify-cms: ^7.7.0
     gatsby-plugin-sharp: ^5.7.0
     gatsby-plugin-sitemap: ^6.7.0
     gatsby-source-filesystem: ^5.7.0
@@ -15355,6 +15323,7 @@ __metadata:
     postcss: ^8.4.21
     react: ^18.2.0
     react-dom: ^18.2.0
+    redux: ^4.2.1
     tailwind: ^4.0.0
     webpack: ^5.75.0
     yarn: ^1.22.19
@@ -16328,7 +16297,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux@npm:4.2.1, redux@npm:^4.0.0, redux@npm:^4.0.5, redux@npm:^4.1.1":
+"redux@npm:4.2.1, redux@npm:^4.0.0, redux@npm:^4.0.5, redux@npm:^4.1.1, redux@npm:^4.2.1":
   version: 4.2.1
   resolution: "redux@npm:4.2.1"
   dependencies:
@@ -17929,16 +17898,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:^2.0.0":
-  version: 2.1.1
-  resolution: "string-width@npm:2.1.1"
-  dependencies:
-    is-fullwidth-code-point: ^2.0.0
-    strip-ansi: ^4.0.0
-  checksum: d6173abe088c615c8dffaf3861dc5d5906ed3dc2d6fd67ff2bd2e2b5dce7fd683c5240699cf0b1b8aa679a3b3bd6b28b5053c824cb89b813d7f6541d8f89064a
-  languageName: node
-  linkType: hard
-
 "string.prototype.matchall@npm:^4.0.8":
   version: 4.0.8
   resolution: "string.prototype.matchall@npm:4.0.8"
@@ -18066,16 +18025,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strip-ansi@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "strip-ansi@npm:4.0.0"
-  dependencies:
-    ansi-regex: ^3.0.0
-  checksum: d9186e6c0cf78f25274f6750ee5e4a5725fb91b70fdd79aa5fe648eab092a0ec5b9621b22d69d4534a56319f75d8944efbd84e3afa8d4ad1b9a9491f12c84eca
-  languageName: node
-  linkType: hard
-
-"strip-ansi@npm:^5, strip-ansi@npm:^5.2.0":
+"strip-ansi@npm:^5.2.0":
   version: 5.2.0
   resolution: "strip-ansi@npm:5.2.0"
   dependencies:
@@ -19688,7 +19638,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.35.0, webpack@npm:^5.75.0":
+"webpack@npm:^5.75.0":
   version: 5.75.0
   resolution: "webpack@npm:5.75.0"
   dependencies:
